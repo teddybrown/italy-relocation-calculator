@@ -1,0 +1,22 @@
+{
+  "name": "Italy Relocation Cost Calculator",
+  "short_name": "Italy Costs",
+  "description": "Calculate the real cost of moving to Italy as an expat — monthly expenses, taxes, and affordability for 8 cities.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF7F4",
+  "theme_color": "#C1440E",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

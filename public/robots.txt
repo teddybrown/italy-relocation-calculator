@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://italy-relocation-calculator.netlify.app/sitemap.xml
+
+# Disallow dev/build artifacts
+Disallow: /assets/
