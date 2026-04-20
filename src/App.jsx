@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, CartesianGrid } from "recharts";
 
@@ -460,8 +461,14 @@ export default function App() {
       {/* Hero */}
       <div style={{ background:"linear-gradient(135deg,#FFF8F4 0%,#FEF0E6 50%,#FDDCCC 100%)",borderBottom:"1px solid #F0E0D4",paddingBottom:56 }}>
         <div style={{ ...S.container,paddingTop:64,textAlign:"center" }}>
-          <div style={{ display:"inline-flex",alignItems:"center",gap:8,background:"#fff",border:"1px solid #F4CDB8",borderRadius:100,padding:"6px 18px",marginBottom:28 }}>
-            <span style={{ ...S.label,fontSize:10 }}>Expat Relocation Guide · Italy 2025</span>
+          <div style={{ display:"flex",alignItems:"center",justifyContent:"center",gap:12,marginBottom:28,flexWrap:"wrap" }}>
+            <div style={{ display:"inline-flex",alignItems:"center",gap:8,background:"#fff",border:"1px solid #F4CDB8",borderRadius:100,padding:"6px 18px" }}>
+              <span style={{ fontSize:16 }}>🇮🇹</span>
+              <span style={{ ...S.label,fontSize:10 }}>Expat Relocation Guide · Italy 2025</span>
+            </div>
+            <Link to="/cities" style={{ display:"inline-flex",alignItems:"center",gap:6,background:"#C1440E",color:"white",borderRadius:100,padding:"6px 18px",fontSize:11,fontWeight:600,textDecoration:"none",letterSpacing:"0.06em",textTransform:"uppercase" }}>
+              🗺️ City Guides
+            </Link>
           </div>
           <h1 style={{ fontFamily:"'Playfair Display',Georgia,serif",fontSize:"clamp(2.2rem,6vw,4rem)",fontWeight:900,lineHeight:1.08,color:"#2A1008",marginBottom:18 }}>
             What Does It <em style={{ color:"#C1440E" }}>Really</em> Cost<br />to Move to Italy?
