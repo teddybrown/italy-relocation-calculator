@@ -18,11 +18,17 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
 body {
+  font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--cream);
   color: var(--warm-dark);
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', Georgia, serif;
 }
 
 /* Remove Vite default root constraints so city pages render full-width */
