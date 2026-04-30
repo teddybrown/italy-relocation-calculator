@@ -469,6 +469,15 @@ export default function App() {
             <Link to="/cities" style={{ display:"inline-flex",alignItems:"center",gap:6,background:"#C1440E",color:"white",borderRadius:100,padding:"6px 18px",fontSize:11,fontWeight:600,textDecoration:"none",letterSpacing:"0.06em",textTransform:"uppercase" }}>
               🗺️ City Guides
             </Link>
+            <Link to="/salary" style={{ display:"inline-flex",alignItems:"center",gap:6,background:"white",color:"#C1440E",border:"1px solid #F4CDB8",borderRadius:100,padding:"6px 18px",fontSize:11,fontWeight:600,textDecoration:"none",letterSpacing:"0.06em",textTransform:"uppercase" }}>
+              💶 Salary Calculator
+            </Link>
+            <Link to="/visa" style={{ display:"inline-flex",alignItems:"center",gap:6,background:"white",color:"#C1440E",border:"1px solid #F4CDB8",borderRadius:100,padding:"6px 18px",fontSize:11,fontWeight:600,textDecoration:"none",letterSpacing:"0.06em",textTransform:"uppercase" }}>
+              🛂 Visa Guide
+            </Link>
+            <Link to="/guide" style={{ display:"inline-flex",alignItems:"center",gap:6,background:"white",color:"#C1440E",border:"1px solid #F4CDB8",borderRadius:100,padding:"6px 18px",fontSize:11,fontWeight:600,textDecoration:"none",letterSpacing:"0.06em",textTransform:"uppercase" }}>
+              📚 Expat Guides
+            </Link>
           </div>
           <h1 style={{ fontFamily:"'Playfair Display',Georgia,serif",fontSize:"clamp(2.2rem,6vw,4rem)",fontWeight:900,lineHeight:1.08,color:"#2A1008",marginBottom:18 }}>
             What Does It <em style={{ color:"#C1440E" }}>Really</em> Cost<br />to Move to Italy?

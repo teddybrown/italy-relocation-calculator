@@ -1,64 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!-- Main page -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://italy-relocation-calculator.netlify.app/</loc>
-    <lastmod>2025-03-01</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://italy-relocation-calculator.netlify.app/" />
   </url>
-
-  <!-- City-specific deep links via URL params (for search engine hints) -->
   <url>
-    <loc>https://italy-relocation-calculator.netlify.app/?city=Milan</loc>
-    <lastmod>2025-03-01</lastmod>
+    <loc>https://italy-relocation-calculator.netlify.app/cities</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/salary</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/visa</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/guide</loc>
+    <lastmod>2025-04-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://italy-relocation-calculator.netlify.app/?city=Rome</loc>
-    <lastmod>2025-03-01</lastmod>
+    <loc>https://italy-relocation-calculator.netlify.app/guide/moving-to-italy-2025</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/guide/find-apartment-italy</loc>
+    <lastmod>2025-04-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://italy-relocation-calculator.netlify.app/?city=Florence</loc>
-    <lastmod>2025-03-01</lastmod>
+    <loc>https://italy-relocation-calculator.netlify.app/guide/healthcare-italy-expat</loc>
+    <lastmod>2025-04-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://italy-relocation-calculator.netlify.app/?city=Bologna</loc>
-    <lastmod>2025-03-01</lastmod>
+    <loc>https://italy-relocation-calculator.netlify.app/guide/open-bank-account-italy</loc>
+    <lastmod>2025-04-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://italy-relocation-calculator.netlify.app/?city=Turin</loc>
-    <lastmod>2025-03-01</lastmod>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/rome</loc>
+    <lastmod>2025-04-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://italy-relocation-calculator.netlify.app/?city=Naples</loc>
-    <lastmod>2025-03-01</lastmod>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/milan</loc>
+    <lastmod>2025-04-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://italy-relocation-calculator.netlify.app/?city=Venice</loc>
-    <lastmod>2025-03-01</lastmod>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/florence</loc>
+    <lastmod>2025-04-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://italy-relocation-calculator.netlify.app/?city=Palermo</loc>
-    <lastmod>2025-03-01</lastmod>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/bologna</loc>
+    <lastmod>2025-04-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/naples</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/turin</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/venice</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/palermo</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/bari</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/catania</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/genoa</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://italy-relocation-calculator.netlify.app/cities/trieste</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
