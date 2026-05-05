@@ -228,9 +228,12 @@ export default function VisaGuide() {
   function selectAnswer(qId, value) {
     const newAnswers = { ...answers, [qId]: value };
     setAnswers(newAnswers);
-    if (step < totalSteps) {
-      setTimeout(() => setStep(s => s + 1), 280);
-    }
+    setTimeout(() => {
+      setStep(s => {
+        const next = s + 1;
+        return next; // always advance — results shown when step > totalSteps
+      });
+    }, 280);
   }
 
   function reset() {
