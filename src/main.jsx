@@ -8,6 +8,11 @@ import CityGuide from './pages/CityGuide.jsx'
 import SalaryCalculator from './pages/SalaryCalculator.jsx'
 import VisaGuide from './pages/VisaGuide.jsx'
 import { GuidesIndex, MovingToItaly, FindApartmentItaly, HealthcareItaly, BankAccountItaly } from './pages/Guides.jsx'
+import ExploreHome from './explore/ExploreHome.jsx'
+import ExploreQuiz from './explore/ExploreQuiz.jsx'
+import ExploreResults from './explore/ExploreResults.jsx'
+import ExploreCitiesIndex from './explore/ExploreCitiesIndex.jsx'
+import ExploreCityGuide from './explore/ExploreCityGuide.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -15,16 +20,23 @@ createRoot(document.getElementById('root')).render(
     <HelmetProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/"                                    element={<App />} />
-          <Route path="/cities"                             element={<CitiesIndex />} />
-          <Route path="/cities/:cityId"                     element={<CityGuide />} />
-          <Route path="/salary"                             element={<SalaryCalculator />} />
-          <Route path="/visa"                               element={<VisaGuide />} />
-          <Route path="/guide"                              element={<GuidesIndex />} />
-          <Route path="/guide/moving-to-italy-2025"         element={<MovingToItaly />} />
-          <Route path="/guide/find-apartment-italy"         element={<FindApartmentItaly />} />
-          <Route path="/guide/healthcare-italy-expat"       element={<HealthcareItaly />} />
-          <Route path="/guide/open-bank-account-italy"      element={<BankAccountItaly />} />
+          {/* Italy Calculator */}
+          <Route path="/"                               element={<App />} />
+          <Route path="/cities"                         element={<CitiesIndex />} />
+          <Route path="/cities/:cityId"                 element={<CityGuide />} />
+          <Route path="/salary"                         element={<SalaryCalculator />} />
+          <Route path="/visa"                           element={<VisaGuide />} />
+          <Route path="/guide"                          element={<GuidesIndex />} />
+          <Route path="/guide/moving-to-italy-2025"     element={<MovingToItaly />} />
+          <Route path="/guide/find-apartment-italy"     element={<FindApartmentItaly />} />
+          <Route path="/guide/healthcare-italy-expat"   element={<HealthcareItaly />} />
+          <Route path="/guide/open-bank-account-italy"  element={<BankAccountItaly />} />
+          {/* MovAbroad — Global */}
+          <Route path="/explore"                        element={<ExploreHome />} />
+          <Route path="/explore/quiz"                   element={<ExploreQuiz />} />
+          <Route path="/explore/results"                element={<ExploreResults />} />
+          <Route path="/explore/cities"                 element={<ExploreCitiesIndex />} />
+          <Route path="/explore/cities/:cityId"         element={<ExploreCityGuide />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>

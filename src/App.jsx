@@ -478,6 +478,9 @@ export default function App() {
             <Link to="/guide" style={{ display:"inline-flex",alignItems:"center",gap:6,background:"white",color:"#C1440E",border:"1px solid #F4CDB8",borderRadius:100,padding:"6px 18px",fontSize:11,fontWeight:600,textDecoration:"none",letterSpacing:"0.06em",textTransform:"uppercase" }}>
               📚 Expat Guides
             </Link>
+            <Link to="/explore" style={{ display:"inline-flex",alignItems:"center",gap:6,background:"#0A0A0F",color:"#D4A843",border:"1px solid rgba(212,168,67,0.3)",borderRadius:100,padding:"6px 18px",fontSize:11,fontWeight:600,textDecoration:"none",letterSpacing:"0.06em",textTransform:"uppercase" }}>
+              🌍 Global Cities
+            </Link>
           </div>
           <h1 style={{ fontFamily:"'Playfair Display',Georgia,serif",fontSize:"clamp(2.2rem,6vw,4rem)",fontWeight:900,lineHeight:1.08,color:"#2A1008",marginBottom:18 }}>
             What Does It <em style={{ color:"#C1440E" }}>Really</em> Cost<br />to Move to Italy?
@@ -867,6 +870,21 @@ export default function App() {
       )}
 
       {/* ── FAQ SECTION ─────────────────────────────────────────────────────── */}
+      {/* MovAbroad crosslink banner */}
+      <div style={{ maxWidth:900,margin:"0 auto",padding:"0 20px 48px" }}>
+        <div style={{ background:"#0A0A0F",borderRadius:20,padding:"2rem 2.5rem",display:"flex",alignItems:"center",justifyContent:"space-between",gap:"1.5rem",flexWrap:"wrap" }}>
+          <div>
+            <div style={{ fontSize:"1.5rem",marginBottom:8 }}>🌍</div>
+            <h3 style={{ fontFamily:"'Playfair Display',serif",fontSize:"1.3rem",fontWeight:700,color:"#F0EEE8",marginBottom:6 }}>Not Moving to Italy?</h3>
+            <p style={{ fontSize:"0.85rem",color:"#9A9890",maxWidth:400,lineHeight:1.65,margin:0 }}>
+              Explore 12 global expat cities — Lisbon, Berlin, Bali, Tokyo, Tbilisi and more. Take our city matching quiz to find your perfect destination worldwide.
+            </p>
+          </div>
+          <Link to="/explore" style={{ padding:"13px 28px",borderRadius:100,background:"#D4A843",color:"#0A0A0F",textDecoration:"none",fontWeight:600,fontSize:"0.9rem",whiteSpace:"nowrap",flexShrink:0 }}>
+            Explore Global Cities →
+          </Link>
+        </div>
+      </div>
       <FAQSection />
     </div>
   );
